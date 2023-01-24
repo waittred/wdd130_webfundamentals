@@ -1,0 +1,45 @@
+#background{
+    background-color: pink;
+    max-width: 150px;
+}
+
+h1{
+    font-family: 'Impact';
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+#one{
+    font-family: 'Impact';
+    color: white;
+    font-size: 11;
+    text-align: center;
+}
+
+#two{
+    font-family: 'Impact';
+    color: black;
+    font-size: 13;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#three{
+    font-family: 'Impact';
+    color: white;
+    font-size: 24;
+    text-align: center
+}
+#four{
+    font-family: 'Impact';
+    color: black;
+    font-size: 11;
+    text-align: center;
+}
