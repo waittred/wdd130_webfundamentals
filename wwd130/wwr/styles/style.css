@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Merriweather:wght@700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&family=Merriweather:wght@700&family=Prata&display=swap');
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.home-title {
+    font-family: 'Merriweather', serif, 'Lato', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +25,7 @@ nav a {
     text-align: center;
         color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -21,35 +40,107 @@ nav a {
 }
 main section {
     text-align: center;
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
     background-color:#6f6b54;
+    
 }
 body {
     background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
+
 header {
     background-color: #5c6274;
     font-size: 1.5em;
+    padding: 5px 20px;
 }
+
 nav a:hover {
     background-color: #6c7c4f;
 }
-.book, .join {
+
+.book {
     background-color: #6c7c4f;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+} 
+
+.join {
+    background-color: #5c6274;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
     background-color: black;
 }
 
-.msg h2, .msg {        
+.tours-img {
+    border: 10px solid #5c6274;
+}
+
+
+.tours-card {
+    margin: 200px 0;
+}
+
+.camping-img {
+    border: 10px solid #5c6274;
+}
+.camping-card {
+    margin: 200px 0;
+}
+
+.lessons-img {
+    border: 10px solid #5c6274;
+}
+
+.lessons-card {
+    margin: 200px 0;
+}
+
+h2 {        
+    background-color: white;
+    font-family: 'Merriweather', serif, 'Lato', sans-serif;
+}
+
+.msg {
+    background-color: #6c7c4f;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
     background-color: #6c7c4f;
 }
 
+.mountains {
+    margin-top: 75px;
+    margin-bottom: 150px;
+}
+
 footer {
-    background-color: #5c6274
+    background-color: #5c6274;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     text-align: center;
@@ -63,15 +154,12 @@ footer a:hover {
 footer p {
     font-size: 1.8em;
 }
-.icon {
-    width: 80px;
-}
-.book, .join {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
+
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
