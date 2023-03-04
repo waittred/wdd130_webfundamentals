@@ -7,6 +7,7 @@ body {
     font-size: 22px;
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 #content {
@@ -27,7 +28,7 @@ header {
 }
 
 .logo {
-    width: 150px;
+    width: 80px;
 }
 
 nav {
@@ -35,11 +36,13 @@ nav {
     display: flex;
     justify-content: space-around;
     color: white;
+    text-decoration: none;
 }
 
 nav a {
     text-align: center;
     background-color: #5c6274;
+    color: white;
     text-decoration: none;
     padding: 35px;
 }
@@ -47,7 +50,7 @@ nav a {
 nav a:hover {
     background-color: #6c7c4f;
     color: white;
-    text-decoration: underline;      
+    text-decoration: none;      
 
 }
 
@@ -95,6 +98,7 @@ nav a:hover {
     font-family: 'Merriweather', serif, 'Lato', sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    text-decoration: none;
 }
 .button-box {
     text-align: center;
@@ -114,7 +118,7 @@ nav a:hover {
 .book:hover {
     background-color:white;
     color:#6c7c4f;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #background {
@@ -142,6 +146,7 @@ main section img {
 h2 {        
     color: #294F5B;
     margin: 0;
+    text-decoration: none;
 }
 
 h4 {
@@ -305,7 +310,7 @@ main section img {
     padding-bottom: 15px;
 }
 
-.join{
+.join {
     background-color: #294F5B;
     color: white;
     text-decoration: none;
@@ -315,35 +320,176 @@ main section img {
     border-radius: 5px;
 }
 
-.join:hover{
+.join:hover {
     background-color: #5c6274;
     color: white;
-    text-decoration: underline;
 }
 
-footer{
+footer {
     background-color: #5c6274;
     color: white;
-    text-decoration: none;
     font-family: 'Merriweather', serif, 'Lato', sans-serif;
     padding: 25px 50px;
     margin-top: 200px;
+    text-decoration: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
+
+footer a {
+    
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+/*Packages Page 2*/
+
+
+
+#hero_package {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: -100px;
+}
+
+#hero_package_box {
+
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: -1;
+}
+#hero_package_img {
+
+    width: 100%;
+}
+
+#hero_package_title {
+    grid-column: 1/4;
+    grid-row: 2/2;
+    text-align: center;
+    margin-top: -100px;
+}
+.hero_package_msg {
+      z-index: -1;
+}
+.melodic_title{
+    grid-column: 1/4;
+    align-self: center;
+}
+.package_details {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 50px;
+}
+
+#test {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 50px;  
+}
+.package_title {
+    
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 15px 30px;
+    margin-top: 40px;
+    border-radius: 10px; 
+}
+
+.package_paragraph {
+    
+    background-color: #5c6274;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 40px;
+    border-radius: 10px; 
+}
+
+.package_grid {
+    grid-column: 1/4;
+    grid-row: 4/4;
+}
+
+.book_package:hover {
+    background-color: #5c6274;
+    color: white;
+}
+
+.join_packages:hover {
+    background-color: #5c6274;
+    color: white;   
+}
+
+#package_msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 50px 50px;
+    text-align: center;
+}
+
+.grand_card {
+    grid-column: 1/4;
+    grid-row: 4/4; 
+}
+
+#grand-img {
+    margin-left: 50px;
+}
+
+#test2 {
+    display: flex;
+    grid-column: 1/4;
+    grid-row: 4/4;
+    padding:  50px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+/*#hero_package, .package_grid {
+    display: block;
+    height: auto;
+    
+}
+Main class on needs to be worked.
+working from "main class, section class, dev id, img
+fixing book now box in middle
+have not done "rafting pictures, 
+*/
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
+        
     }
     nav, footer {
         flex-direction: column;
+        text-decoration: none;
+        
     }
     nav a {
         display: block;
         padding: 15px;
+        text-decoration: none;
+        
     }
     #hero {
         margin-top: 0;
@@ -372,5 +518,7 @@ footer{
     }
     footer {
         margin-top: 25px;
-    }
+        text-decoration: none;
+  
+}
 }
