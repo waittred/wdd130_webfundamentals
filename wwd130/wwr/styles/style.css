@@ -11,7 +11,7 @@ body {
 }
 
 #content {
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -478,17 +478,9 @@ footer a {
 
 /* Contact Us Page */ 
 
-form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-  }
 
-  #feedback {
+#feedback {
+    
     background-color: antiquewhite;
     position: absolute;
     top: 0;
@@ -501,6 +493,16 @@ form {
 .moveDown {
     margin-top: 3em;
 }
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin-top: 50px;
+  }
 
 ul {
     list-style: none;
@@ -512,7 +514,7 @@ ul {
     margin-top: 1em;
   }
   
-  label {
+label {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
@@ -548,13 +550,10 @@ ul {
   }
   
   .button {
-    /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
+    padding-left: 90px; 
   }
   
   button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: 0.5em;
+      margin-left: 0.5em;
   }
 
