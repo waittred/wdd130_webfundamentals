@@ -10,7 +10,7 @@ body {
 }
 
 #content {
-    max-width: 1600px;
+    max-width: auto;
     margin: 0 auto;
 }
 
@@ -18,18 +18,21 @@ header {
     background-color: #2A1E5C;
     display: grid;
     grid-template-columns: 150px auto;
+    margin-bottom: 110px;
 }
 
 #logo_link {
-    padding-top: 5px;
+    padding-top: 0px;
     justify-self: center;
     align-self: center;
 }
 
 .h_logo {
-    width: 100%;
+    width: auto;
 }
-
+#h_purple_cow_link{
+    height: 200px;
+}
 nav {
     margin-top: 50px;
     display: flex;
@@ -55,8 +58,8 @@ nav a:hover {
 
 #h_eoe {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin-top: -150px;
 }
 
 #h_eoe_microscope {
@@ -67,13 +70,17 @@ nav a:hover {
 
 #h_eoe_img {
     width: 100%;
-    opacity: .2;
+    opacity: .1;
+    height: 100vh;
 }
-
+#interesting_img {
+    margin-top: 20px;
+     max-width: 50%;
+ }
 #eoe_what_is_msg {
     grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 125px;
+    grid-row: 1;
+    margin-top: 75px;
     text-align: center;
 }
 
@@ -84,18 +91,54 @@ nav a:hover {
     margin-top: 10px;
     text-decoration: none;
 }
-
-
-
-
+.container {
+  position: relative;
+  width: 100%;
+  
+  
+}
 
 #f_eoe {
     display: block;
     text-align: center;
     margin: auto;
-
-    
 }
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 25%;
+  right: 25%;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #EE4266;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 #f_boy_img {
     display: block;
@@ -111,7 +154,7 @@ nav a:hover {
     text-align: center;
 }
 .home-title_f {
-    color: #EE4266;
+    color: #2A1E5C;
     font-family: "Yrsa";
     font-size: 3em;
     margin-top: 10px;
@@ -145,10 +188,7 @@ nav a:hover {
     margin: auto;
     
 }
-#interesting_img {
-   margin-top: 20px;
-    max-width: 50%;
-}
+
 
 #purple_cow {
     display: block;
