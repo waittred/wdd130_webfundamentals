@@ -47,7 +47,8 @@ nav a {
     background-color: #2A1E5C;
     color: white;
     text-decoration: none;
-    padding: 35px;
+    padding: 55px;
+    overflow: hidden;
 }
 
 nav a:hover {
@@ -121,7 +122,7 @@ nav a:hover {
   height: 100%;
   width: 50%;
   opacity: 0;
-  transition: 1s ease;
+  transition: .02 ease;
   background-color: #EE4266;
 }
 .container:hover .overlay {
