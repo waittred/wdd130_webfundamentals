@@ -461,7 +461,9 @@ h2 {
         width: 100%;
         display: block;
         margin: 0 auto;
-        text-align: center;    
+        text-align: center;
+        
+           
 }
 
 .overlay, .overlay_b {
