@@ -439,9 +439,10 @@ h2 {
 
 
 .all-browsers, .all-browsers_a {
-        width: 80%;
+        width: 100%;
         display: block;
-        margin: 0 auto;    
+        margin: 0 auto;
+        text-align: center;    
 }
 
 .overlay, .overlay_b {
