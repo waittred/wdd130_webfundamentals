@@ -73,7 +73,7 @@ p {
 }
 
 .button {
-	padding: .1em .1em;
+	padding: .3em .3em;
 	color: white;
 	text-decoration: none;
 	border: .1em solid white;
@@ -363,7 +363,6 @@ mark {
     font-family: 'Short Stack',"Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 3vh;
     line-height: 1.5;
-    margin: 0;
 }
     
 
